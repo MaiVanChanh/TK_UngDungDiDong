@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anhnen4"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ThemXoaSua_LietKeThongKe.ThemChiTietChiTieu">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="343dp"
+        android:layout_margin="5dp">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/tien">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/txtSoTien_ThemCTCT"
+    android:hint="Nhập số tiền...."
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="307dp"
+                android:layout_height="80dp">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/note">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/txtTenCTCT_ThemCTCT"
+                android:layout_height="92dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:hint="Nhập tên chi tiết tiêu">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imChonNgay_ThemCTCT"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/chonngay">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/txtChonNgay_ThemCTCT"
+                android:layout_width="308dp"
+                android:layout_height="95dp"
+                android:width="20dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:height="80dp"
+                android:hint="Ngày thành lập..."
+                android:text="">
+
+            </EditText>
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ground">
+
+            </ImageView>
+
+            <EditText
+                android:textColor="@color/yellow2"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="hiện lên nài"
+                android:id="@+id/txtTenNhomCTCT_ThemCTCT"
+                android:layout_height="80dp">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:text="Xác nhận"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:background="@drawable/buuton_design"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:shadowRadius="50"
+        android:id="@+id/btnXacNhan_ThemCTCT"
+         ></Button>
+    <Button
+        android:text="Thoát"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:background="@drawable/buuton_design"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:shadowRadius="50"
+        android:id="@+id/btnThoat_ThemCTCT"
+        tools:ignore="OnClick"></Button>
+
+
+
+
+</LinearLayout>

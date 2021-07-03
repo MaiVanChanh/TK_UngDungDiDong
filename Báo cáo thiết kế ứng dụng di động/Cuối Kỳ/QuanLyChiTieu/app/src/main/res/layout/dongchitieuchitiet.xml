@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00BCD4"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_rowWeight="1"
+        android:background="@color/white
+"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="407dp"
+            android:padding="5dp">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtTenLoaiCHiTieu_dongCT"
+                    android:layout_width="167dp"
+                    android:layout_height="50dp"
+                    android:inputType="textPersonName"
+                    android:text="Tên loại CT"
+                    android:textColor="@color/yellow"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtSoTien_DongChiTiet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="textPersonName"
+                    android:text="Tổng tiển"
+                    android:textSize="30dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtTenCHiTieuChiTiet_dongCT"
+                    android:layout_width="167dp"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Chi tiêys"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txtNgayChiTieu_dongchitieu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="right"
+                    android:inputType="textPersonName"
+                    android:text="Ngày chi tiêu"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow android:layout_height="71dp">
+
+                <TextView
+                    android:id="@+id/txtidLoaiChiTieu_DongCHiTieu"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Loại chi tiêu" />
+
+                <TextView
+                    android:id="@+id/txtidTenChiTieuChiTiet_dongCT"
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name" />
+            </TableRow>
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

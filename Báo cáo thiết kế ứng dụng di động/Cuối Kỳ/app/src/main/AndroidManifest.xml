@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanlychitieu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyChiTieu"
+        >
+        <activity android:name=".QuanTrong.MainActivity_Fragment"
+            android:label="Trang chủ">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DAO.TKChiTieu"
+            android:label="Thống kê chi tiêu"
+            android:parentActivityName=".DanhSachCTCT" />
+        <activity
+            android:name=".ThemXoaSua_LietKeThongKe.ThemChiTietChiTieu"
+            android:label="Chi tiết Chi tiêu" />
+        <activity
+            android:name=".ThemXoaSua_LietKeThongKe.ThemLoaiChiTieu"
+            android:label="Thêm loại chi tiêu"
+            android:parentActivityName=".QuanTrong.MainActivity_Fragment" />
+
+        <activity
+            android:name=".DanhSachCTCT"
+            android:label="Danh sách chi tiết thu chi" />
+    </application>
+
+</manifest>

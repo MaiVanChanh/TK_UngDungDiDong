@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/anhnen4"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemXoaSua_LietKeThongKe.ThemLoaiChiTieu">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="#66B3F1"
+        android:gravity="center"
+        android:rotationX="21"
+        android:text="Mời bạn nhập tên chi tiêu"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/txtTenChiTieu_ThemChiTieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="#66B3F1"
+        android:gravity="center"
+        android:rotationX="21"
+        android:text="Mời bạn chọn loại chi tiêu"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+
+    <RadioGroup
+        android:id="@+id/raGr_ThemLCT"
+        android:layout_width="match_parent"
+        android:layout_height="117dp">
+
+        <RadioButton
+            android:id="@+id/loaiChi_tehmLCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Loại chi tiêu" />
+
+        <RadioButton
+            android:id="@+id/loaiThu_tehmLCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loại thu nhập" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnXacNhan_ThemLCT"
+        android:layout_width="182dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buuton_design"
+        android:gravity="center"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:text="Xác nhận" />
+
+</LinearLayout>
+</ScrollView>

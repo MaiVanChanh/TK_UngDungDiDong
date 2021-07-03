@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btn_nav_Home"
+        android:title="Trang chủ"
+        android:icon="@drawable/iconhome" >
+    </item>
+    <item
+        android:id="@+id/btn_nav_ThongKe"
+        android:title="Thống kê"
+        android:icon="@drawable/thongke_icon_lonnhat"
+        >
+
+    </item>
+    <item
+        android:id="@+id/btn_nav_Them"
+        android:title="Thêm mới"
+        android:icon="@drawable/themmoi_icon"  >
+
+    </item>
+    <item
+        android:id="@+id/btn_nav_ProFile"
+        android:title="Tài khoản"
+        android:icon="@drawable/profile_icon" >
+    </item>
+
+</menu>
